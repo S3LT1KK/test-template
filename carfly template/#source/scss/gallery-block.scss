@@ -1,0 +1,229 @@
+.page__gallery-block {}
+.gallery-block {
+    position: relative;
+    overflow: hidden;
+}
+.gallery-block__container {
+    margin: 0 auto;
+}
+.gallery-block__body {
+    position: relative;
+}
+.gallery-block__title {
+    margin: 100px 0px 52px 0px;
+    font-family: 'Conv_proximanova_bold';
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 72px;
+    text-align: center;
+    color: #191919;
+}
+
+.vertical {
+    padding: 0px 0px 40px 0px;
+}
+
+.vertical__body {
+    margin: 0px auto;
+}
+.vertical__row {
+    display: flex;
+    margin: 0;
+}
+.vertical__column {
+    max-width: 440px;
+    min-height: 266px;
+    margin: 0px 40px 0px 0px;
+    flex: 0 1 33.333%;
+    display: flex;
+    &:last-child{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+.vertical__column_1 {
+
+}
+.vertical__column_2 {
+
+}
+.vertical__column_3 {
+
+}
+
+.vertical__item {
+    position: relative;
+    background: #F2F7FC;
+    border-radius: 6px;
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 0 0 100%;
+}
+.vertical__item-last {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1 1 100%;
+    background: #579D45;
+    border-radius: 6px;
+}
+.vertical__label {
+    margin: 50px 0px 0px 50px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #579D45;
+}
+.vertical__text {
+    margin: 8px 0px 0px 50px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 330px;
+    z-index: 2;
+    //flex: 1 1 auto;
+}
+.vertical__text p {
+    margin: 0px 0px 15px 0px;
+}
+.vertical__text p:last-child {
+    //margin: 0;
+}
+.last-text-p {
+    max-width: 350px;
+    padding: 64px 0px 0px 50px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.vertical__btn {
+    display: block;
+    padding: 20px 0px;
+    margin: 24px 0px 0px 50px;
+    width: 305px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #579D45;
+}
+.vertical__icon {
+    position: absolute;
+    right: 10%;
+    bottom: 15.04%;
+    z-index: 1;
+}
+
+.gallery {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 40px;
+    margin: 0px 0px 64px 0px;
+}
+.gallery__item {
+    overflow: hidden;
+    border-radius: 8px;
+}
+.gallery__item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item2 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item3 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item4 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery__item5 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery__item6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.gallery__item7 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.gallery__item8 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.gallery__item9 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.gallery-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 00px 0px 99px 0px;
+}
+.gallery__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #579D45;
+    border-radius: 4px;
+}
+.gallery__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #579D45;
+    text-align: center;
+}
+.gallery__icon {
+    padding: 10px 0px 0px 10px;
+}
+
+/*.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;
+}*/

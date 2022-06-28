@@ -1,0 +1,76 @@
+footer{
+	position: relative;
+	background-color: #579D45;
+	max-height: 232px;
+}
+
+.footer__container {
+	margin: 0 auto;
+}
+.footer-phonenumbers {
+	display: flex;
+	min-height: 164px;
+	align-items: center;
+	justify-content: flex-end;
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+.footer__icon {
+		margin: 0px 10px 0px 0px;
+	img{
+		padding: 5px 0px 0px 0px;
+	}
+}
+.footer__link {
+	z-index: 90;
+	margin: 0px 42px 0px 0px;
+	&:last-child {
+		margin: 0px 0px 0px 0px;
+	}
+}
+.footer-bottomblock {
+
+}
+.footer-bottomblock-cols {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-bottomblock-col {
+	font-family: 'Conv_Segoe UI';
+	display: flex;
+	min-height: 66px;
+	align-items: center;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: right;
+	color: #F2F7FC;
+}
+.footer-bottomblock__link {
+	z-index: 90;
+	font-family: 'Conv_Segoe UI';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: right;
+	color: #F2F7FC;
+	&:last-child{
+		text-decoration: underline;
+	}
+}
+.footer__image {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	//width: 1799.96px;
+	//height: 207.21px;
+	left: 24.26px;
+	top: 22.26px;
+	object-fit: cover;
+	max-height: 780px;
+}
